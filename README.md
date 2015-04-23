@@ -3,6 +3,7 @@ Mini API pour transformer une page leboncoin en données JSON ou en Array PHP
 
 ## Usage
 
+```
 use App\LBCAPI\LBCApi;
 
 require_once(__DIR__ . '/LBCApi.php');
@@ -14,5 +15,5 @@ $content = $api
 print_r($api->getContent());
 
 echo $api->getJSON();
-
+```
 
